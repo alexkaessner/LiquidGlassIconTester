@@ -19,10 +19,10 @@ Make sure you’ve installed Xcode 26 or newer!
 3. Press run (⌘K) aka play button.
 
 > [!CAUTION]
-> When replacing the icon make sure to first do a “Clean Build Folder” (⇧⌘K) first (via the „Product" main menu). Otherwise the previous app icon might still be stuck in the cache and will not be replaced.
+> **After replacing the icon make sure to do a “Clean Build Folder” (⇧⌘K) (via the „Product" main menu) before running the build.** Xcode keeps the app icon cached quite heavily, so a clean build ensures the new icon is loaded correctly.
 
 > [!TIP]
-> If you want to use your own icon name, you also need to match the name in Xcode. To do that select the project file in the sidebar. Then on the right side go to: Targets → LiquidGlassIconTester → General → App Icons and Launch Screen → App Icon.
+> If you want to use your own icon name, you also need to match the name in Xcode. To do that select the project file in the sidebar. Then on the right side go to: Targets → LiquidGlassIconTester → General → App Icons and Launch Screen → App Icon
 
 ### SF Symbol
 1. Replace the `custom.symbol.svg` file with your own file in “Assets”.
