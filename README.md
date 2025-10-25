@@ -1,21 +1,21 @@
 # Liquid Glass App Icon Tester
 
-![Requires Xcode 26.0+](https://img.shields.io/badge/Requires_Xcode_26.0%2B-%23147EFB?logo=xcode&logoColor=ffffff&link=https%3A%2F%2Fdeveloper.apple.com%2Fxcode%2F)
+[![Requires Xcode 26.0+](https://img.shields.io/badge/Requires_Xcode_26.0%2B-%23147EFB?logo=xcode&logoColor=ffffff)](https://developer.apple.com/xcode/)
+
+![macOS Screenshot](ExampleMac.png)
 
 This is a simple template project to quickly test your Liquid Glass app icons and custom SF Symbols for Apple’s platforms.
 
-![Download](https://img.shields.io/badge/Download-%23147EFB?style=for-the-badge&link=https%3A%2F%2Fgithub.com%2Falexkaessner%2FLiquidGlassIconTester%2Farchive%2Frefs%2Fheads%2Fmain.zip)
-
-![macOS Screenshot](ExampleMac.png)
+[![Download](https://img.shields.io/badge/Download-%23428646?style=for-the-badge)](https://github.com/alexkaessner/LiquidGlassIconTester/archive/refs/heads/main.zip)
 
 ## Requirements
 Make sure you’ve installed Xcode 26 or newer!
 
 ## How to use it?
 ### App Icon
-1. Replace the `AppIcon.icon` file with your own file.
-   - Best done in the Finder! Via right click the file in Xcode and select “Show in Finder” to replace it there.
-2. Select the device you want to test in the titlebar.
+1. Replace the `AppIcon.icon` file with your own Icon Composer file.
+   - Best done in the Finder! Use right click on the file in Xcode and select “Show in Finder” to replace it there.
+2. Select the device you want to test in the titlebar (My Mac or iOS Simulator).
 3. Press run (⌘K) aka play button.
 
 > [!CAUTION]
@@ -26,8 +26,8 @@ Make sure you’ve installed Xcode 26 or newer!
 
 ### SF Symbol
 1. Replace the `custom.symbol.svg` file with your own file in “Assets”.
-   - Best done in the Finder! Via right click the file in Xcode and select “Show in Finder” to replace it there.
-2. Select the device you want to test in the titlebar.
+   - Best done in the Finder! Use right click on the file in Xcode and select “Show in Finder” to replace it there.
+2. Select the device you want to test in the titlebar (My Mac or iOS Simulator).
 3. Press run (⌘K) aka play button.
 
 > [!TIP]
